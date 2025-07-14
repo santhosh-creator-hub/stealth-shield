@@ -1,0 +1,23 @@
+<!-- honeypot/fake_admin_panel/templates/login.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Login</title>
+    <style>
+        body { font-family: Arial; background: #0d1117; color: white; display: flex; justify-content: center; align-items: center; height: 100vh; }
+        .box { background: #161b22; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px #00ffcc; }
+        input { margin: 10px 0; padding: 8px; width: 100%; }
+        button { padding: 10px; width: 100%; background: #00ffcc; border: none; color: black; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Admin Panel</h2>
+        <form method="post">
+            <input type="text" name="username" placeholder="Username" required />
+            <input type="password" name="password" placeholder="Password" required />
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
