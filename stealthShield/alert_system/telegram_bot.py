@@ -2,8 +2,8 @@
 import requests
 
 # Replace with your actual token and chat_id
-BOT_TOKEN = "7323061668:AAGQ58F8WuGF7AkfOAxpemG0Yl6DZRTbMyE"
-CHAT_ID = "5397479187"
+BOT_TOKEN = "use the bot token"
+CHAT_ID = "enter the chat id "
 
 def send_alert(message):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
